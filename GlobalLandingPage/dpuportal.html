@@ -1,0 +1,297 @@
+<style type="text/css">
+/*Necessary Inline Styling to override and position Search Bar in Center of Page*/
+   a:link, a:active, a:visited, a:hover {
+	   color:#006FD1;
+	   text-decoration:none;
+   }
+   
+#search {
+    height: 44px !important;
+    background-color: white !important;
+   margin: 50px -74px !important;
+    overflow: visible;
+    border-bottom: none !important;
+}
+
+#search_content {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 7px 0 0 100px !important;
+    clear: both;
+}
+  
+.search_content_box_noresults {
+border: 1px solid #7F9DB9;
+width: 450px !important;
+margin: 0 15px 0 0;
+height: 30px !important;
+font-size: 18px !important;
+}
+   
+.search_content_button {
+height: 32px !important;
+font-family: Verdana, Arial, Helvetica;
+font-weight: bold;
+font-size: 18px !important;
+text-align: center;
+color: white;
+background-color: steelBlue;
+border: 1px solid;
+padding: 5px 6px 3px 5px !important;
+margin: 0 5px 0 0 !important;
+cursor: pointer;
+border-color: midnightBlue;
+}
+/*Search Button*/
+
+#search_content_text {
+/*color: black;
+font-family: Arial;
+font-size: 18px !important;
+font-weight: bold;
+margin: 10px 5px 0 0 !important;*/
+display:none; 
+
+}   
+
+/*Advanced Search*/
+.action_link_10 {
+font-family: Verdana;
+font-size: 18px !important;
+font-weight: normal;
+color: #006FD1;
+font-style: normal;
+text-decoration: none;
+padding: 10px 15px !important;
+}
+
+
+#adv_search {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color: #f6f6f6;
+display: none;
+border: solid #333333 2px;
+padding-bottom: 20px;
+margin-top: -40px !important;
+width: 910px;
+margin-left: 30px;
+margin-bottom: 10px;
+}
+/*#top_content {
+margin: 0 30px 0 30px;
+min-width: 960px;
+display: none !important;
+}*/
+
+#breadcrumb_top {
+padding: 14px 0 24px 0;
+vertical-align: middle;
+overflow: hidden;
+min-width: 811px;
+text-overflow: ellipsis;
+display: none;
+}
+#backToTopLink {
+	display: none !important; 
+}
+
+.clearall {
+	clear:both
+}
+</style> 
+   
+  
+<!--Outer Container-->
+
+<div class="dpu_portalbox_outer">
+<!--Image Carousel-->
+
+<div class="carousel_psul carouselpar">
+<div id="carouselcontainer">    
+    <div id="carousel">
+    <h2 id="carousel_title"></h2>
+        <div class="prev">&nbsp;</div>
+        <div class="next">&nbsp;</div>
+        <ul>
+        <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/p15448coll4">
+              <img class="screenshot" alt="Vincentian Holy Cards" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/holycardsbanner.png" />            
+              <span class="text-box">
+                <span class="title">Vincentian Holy Cards</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+        
+        <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/scimages">
+              <img class="screenshot" alt="DePaul University Buildings" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/scimages.jpg" />            
+              <span class="text-box">
+                <span class="title">Exhibits from the DePaul University Libraries and Partners</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+        <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/dpubuilding">
+              <img class="screenshot" alt="DePaul University Buildings" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/dpubuilding.jpg" />            
+              <span class="text-box">
+                <span class="title">DePaul University Buildings</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+    
+              <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/gic">
+              <img class="screenshot" alt="Geographic Image Collection" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/gic.jpg" />            
+              <span class="text-box">
+                <span class="title">Geographic Image Collection</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+            
+            <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/cm1">
+              <img class="screenshot" alt="Vincentian Postcards Collection" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/cm1.jpg" />            
+              <span class="text-box">
+                <span class="title">Vincentian Postcards</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+            
+            <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/p15448coll1">
+              <img class="screenshot" alt="DePaul University Yearbooks" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/p15448coll1.jpg" />            
+              <span class="text-box">
+                <span class="title">DePaul University Yearbooks</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+            
+             <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/p15448coll2">
+              <img class="screenshot" alt="Vincentiana - Historical Maps" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/p15448coll2.jpg" />            
+              <span class="text-box">
+                <span class="title">Vincentiana - Historical Maps</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+            
+              <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/p15448coll3">
+              <img class="screenshot" alt="Vincentian Historical Texts" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/p15448coll3.jpg" />            
+              <span class="text-box">
+                <span class="title">Vincentian Historical Texts</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+            
+             <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/p16106coll1">
+              <img class="screenshot" alt="Selected Maps from Special Collections and Archives" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/p16106coll1.jpg" />            
+              <span class="text-box">
+                <span class="title">Selected Maps from Special Collections and Archives</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+            
+             <li>
+              <a href="http://digicol.lib.depaul.edu/cdm/landingpage/collection/younglords">
+              <img class="screenshot" alt="Young Lords" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/younglords.jpg" />            
+              <span class="text-box">
+                <span class="title">Young Lords</span>
+                <span class="description"></span>
+                <span class="more"></span>
+              </span>
+             </a>
+            </li>
+          
+        </ul>
+    <div id="carousel_ltail"></div>
+    <div id="carousel_rtail"></div>
+    </div>
+</div>
+</div>
+<!--End of Carousel-->
+<div style="clear:both"></div>  
+ <!--Inner Content Container-->
+  <div class="dpu_portalbox_inner">
+  <!--Inner Left Container-->
+  <div class="dpu_portalbox_inner_left">
+  <!--DPU Collection Container-->
+  <div class="dpu_portalcontainer">
+  <div class="dpu_portalcontainertitle"><h3 class="dpu_portalcontainertitle">DePaul Digital Collections</h3></div>
+  <div class="dpu_portalcontainerleft"><img class="img.dpu_portalcontainerleft" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/depaul_portal_leftbox.jpg"  />
+  </div>
+  <div class="dpu_portalcontainerright"><ul>
+  <li><a href="/cdm/landingpage/collection/dpubuilding" title="" class="first">DePaul University Buildings Collection</a></li>
+  <li><a href="/cdm/landingpage/collection/p15448coll1" title="DePaul University Yearbooks">DePaul University Yearbooks</a></li>
+  <li><a href="/cdm/landingpage/collection/scimages" title="Exhibits from the DePaul University Libraries and Partners">Exhibits from DePaul University Libraries & Partners</a></li>
+  <li><a href="/cdm/landingpage/collection/gic" title="">Geographic Image Collection</a></li>
+  <li><a href="/cdm/landingpage/collection/lpnc1" title="Lincoln Park Architectural Photographs">Lincoln Park Architectural Photographs</a></li>
+  <li><a href="/cdm/landingpage/collection/lpnc6" title="Lincoln Park Neighborhood Collection">Lincoln Park Neighborhood Collection</a></li>
+  <li><a href="/cdm/landingpage/collection/iic" title="">  Photograph Souvenir Cards and Tarot Decks</a></li>
+  <li><a href="/cdm/landingpage/collection/p16106coll1" title="Selected Maps from Special Collections and Archives">Selected Maps from Special Collections and Archives</a></li>
+  <li><a href="/cdm/landingpage/collection/younglords" title="Young Lords">Young Lords Newspaper Collection</a></li>
+  </ul></div>
+ 
+  </div>
+<div style="clear:both"></div>  
+  <!--END Collection Container-->
+ <!--Vincentian Collection Container-->
+  <div class="dpu_portalcontainer" id="dpu_vincentian">
+  <div class="dpu_portalcontainertitle">
+    <h3 class="dpu_portalcontainertitle">Vincentian Collections</h3></div>
+  <div class="dpu_portalcontainerleft"><img class="img.dpu_portalcontainerleft" src="http://digicol.lib.depaul.edu/ui/custom/default/collection/default/images/vincentian_portal_leftbox.jpg"  />
+  </div>
+  <div class="dpu_portalcontainerright">
+  <ul>
+<li><a href="/cdm/landingpage/collection/depaul01" title="Vincentian Foundational Texts">Vincentian Foundational Texts</a></li>
+<li><a href="/cdm/landingpage/collection/p15448coll4" title="Vincentian Holy Cards">Vincentian Holy Cards</a></li>
+<li><a href="/cdm/landingpage/collection/p15448coll3" title="Vincentian Historical Texts">Vincentian Historical Texts</a></li>
+  <li><a href="/cdm/landingpage/collection/cm1" title="Vincentian Postcards">Vincentian Postcards</a></li>
+  <li><a href="/cdm/landingpage/collection/p15448coll2" title="Vincentiana - Historical Maps">Vincentiana - Historical Maps</a></li>
+  
+  </ul></div></div>
+ <!--END Collection Container-->
+  </div>
+  <!--END Inner Left Container-->
+  
+  <!--Inner Right Container-->
+ 
+  <div class="dpu_portalbox_inner_right">
+  <!--ABOUT Container-->
+  <div class="abouttextportal">
+<h3>About</h3>
+<p> The DePaul University Libraries Digital Collections include a variety of online images for researchers and the general public. The collections include historical photographs of the Lincoln Park neighborhood surrounding DePaul University's main campus, historical photos of DePaul University buildings and Vincentian maps, postcards and other ephemera.</p>
+  </div>
+  <!--END About Container-->
+  </div>
+  <!--End Inner Right Container-->
+  </div>
+ <!--End Inner Container-->
+
+  </div>
+  <!--End Outer Container-->
+
+  
+  
+  
+	
+
+

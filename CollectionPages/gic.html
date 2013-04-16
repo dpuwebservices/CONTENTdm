@@ -1,0 +1,633 @@
+
+<style type="text/css">
+
+#accordion {
+	width: 440px;
+	
+	}
+    </style> 
+
+
+
+
+<script type="text/javascript" src="http://jqueryui.com/external/jquery.cookie.js"></script>
+
+
+
+<script type="text/javascript">// <![CDATA[
+	$(function() {
+		//$( "#accordion" ).accordion({ header: "h3", autoHeight: false,active: false,collapsible: true});
+		
+		  $("#accordion").accordion({ header: "h3",  autoHeight: false, active: false, collapsible: true,  });
+		 $("#accordion2").accordion({ header: "h3", active: false, collapsible: true, cookie: {expires: 1} });
+		 $("#accordion3").accordion({ header: "h4",  autoHeight: false, active: false, collapsible: true,  });
+		
+        });
+		
+		
+		//getter
+
+// ]]></script>
+<!--Container for All of Landing Page-->
+<div class="container">
+<!--Left Box:  Splash Image and Text-->
+<div class="left">
+
+
+<div class="about">
+<h2 align="center">
+
+Geographic Images Collection</h2>
+
+<div class="collectionimage"><img src="http://cdm16106.contentdm.oclc.org/utils/ajaxhelper/?CISOROOT=gic&CISOPTR=124&action=2&DMSCALE=70&DMWIDTH=400&DMHEIGHT=290&DMX=10&DMY=0&DM" align="left" /></div>
+<div class="collectiontext" style="margin-left:-10px;">
+<p class="cdm_style">The images in the Geographic Image Collection represent slides that have been donated to DePaul University Library by various individuals from the DePaul Community, many of whom were members of the DePaul Geographic Society. These travelers recorded their expeditions to countries around the globe from the late 1940's to the present.</p>
+
+
+<p class="cdm_style">Images in the collection represent a wide variety of topics in geographic, ethnographic and cultural imagery including: agriculture; anthropology and indigenous peoples; arts and architecture; commerce and industry; communication; economics; education; entertainment; environment; flora and fauna; health; land forms; parks and recreation; religious customs; sociology; and transportation. A sample of the collection includes images of bathers in the Ganges River at Varanasi, India; a pharmacy in a commune hospital in Nanning, China; ancient ruins in Ephesus, Turkey; summer hogans in Arizona; seal skinning practices in Kotzebue, Alaska; the top of Mount Vesuvius, Italy; and Buckingham Fountain in Chicago.</p>
+
+
+
+
+
+
+</div>
+</div>
+
+  <div style="clear:both"></div>
+
+
+</div>
+<!--Right Box:   Includes RSS Link and Browse All Link:  Must be changed for each collection-->
+<div class="right">
+
+<div id="cdm_rss_container">
+            <a target="_blank" href="/cdm/viewfeed/collection/gic"><img border="0" src="/ui/cdm/default/collection/default/images/icon_rss.png" />&nbsp;</a>
+            <a target="_blank" href="/cdm/viewfeed/collection/gic" class="body_link_11">Receive updates for this collection.</a>
+          </div>
+<div class="browse">
+<FORM METHOD="LINK" ACTION="/cdm/search/collection/gic">
+<input id="simple_search_button" class="search_content_button spaceMar15L" type="submit" value="Browse this Collection" />
+
+</FORM>
+<h2>Browse By</h2>
+<div id="accordion" class="cdm_togglebox ui-accordion ui-widget ui-helper-reset ui-accordion-icons">
+
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span> <a tabindex="-1" href="javascript://;"> Countries </a></h3>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<div style="float:left">   
+<ul> 
+    
+
+  <li><a href="/cdm/search/collection/gic/searchterm/algeria">Algeria
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/antigua">Antigua
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/argentina">Argentina
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/australia">Australia
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/bali">Bali
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/barbados">Barbados
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/bolivia">Bolivia
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/brazil">Brazil
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/burma">Burma
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/canada">Canada
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/china">China
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/curacao">Curacao
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/denmark">Denmark
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/england">England
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/figi">Figi
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/france">France
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/greece">Greece
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/india">India
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/indonesia">Indonesia
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/israel">Israel
+</a></li> </ul>
+
+</div>
+<div style="float:left">    
+<UL>
+ <li><a href="/cdm/search/collection/gic/searchterm/italy">Italy
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/mexico">Mexico
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/morocco">Morocco
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/myanmar">Myanmar
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/netherlands antilles">Netherlands Antilles
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/new zealand">New Zealand
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/norway">Norway
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/peru">Peru
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/philippines">Philippines
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/polynesia">Polynesia
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/romania">Romania
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/samoa">Samoa
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/sardinia">Sardinia
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/serbia and montenegro">Serbia and Montenegro
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/sicily">Sicily
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/slovenia">Slovenia
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/south africa">South Africa
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/swaziland">Swaziland
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/thailand">Thailand
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/turkey">Turkey
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/united states">United States
+</a></li>  <li><a href="/cdm/search/collection/gic/searchterm/venezuela">Venezuela
+</a></li>
+</ul>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span> <a tabindex="-1" href="javascript://;">States</a></h3>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<div >   
+<ul> 
+    
+
+  <li><a href="/cdm/search/collection/gic/searchterm/alaska">Alaska
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/arizona">Arizona
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/california">California
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/colorado">Colorado
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/hawaii">Hawaii
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/idaho">Idaho
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/illinois">Illinois
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/louisiana">Louisiana
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/massachusetts">Massachusetts
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/michigan">Michigan
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/minnesota">Minnesota
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/montana">Montana
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/nevada">Nevada
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/new mexico">New Mexico
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/new york">New York
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ohio">Ohio
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/utah">Utah
+</a></li> </ul>
+
+</div>
+
+
+
+
+</div>
+
+
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span> <a tabindex="-1" href="javascript://;"> Cities </a></h3>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+<div id="accordion3" class="cdm_togglebox ui-accordion ui-widget ui-helper-reset ui-accordion-icons">
+
+<!--Cities-->
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities A </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+    
+
+ <li><a href="/cdm/search/collection/gic/searchterm/aalsmeer">Aalsmeer
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/acapulco de juarez">Acapulco de Juarez
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/adelaide">Adelaide
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/alesund">Alesund
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/algiers">Algiers
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/amalfi">Amalfi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/amsterdam">Amsterdam
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/annecy">Annecy
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/arles">Arles
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/arrowtown">Arrowtown
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/aspen">Aspen
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/assisi">Assisi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/athens">Athens
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/auckland">Auckland
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/avignon">Avignon
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ayzariyah">Ayzariyah
+</a></li>
+</ul></div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities B </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+<li><a href="/cdm/search/collection/gic/searchterm/babachois">Babachois
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bahia">Bahia
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/banff">Banff
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bangkok">Bangkok
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/baram">Baram
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/barbizon">Barbizon
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bathurst">Bathurst
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/baule">Baule
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/beaver creek">Beaver Creek
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/beersheba">Beersheba
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/beijing">Beijing
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/belo horizonte">Belo Horizonte
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bergama">Bergama
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bergen">Bergen
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bet she'arim">Bet She'arim
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bethany">Bethany
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bethlehem">Bethlehem
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/billings">Billings
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bombay">Bombay
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/borgund">Borgund
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/boston">Boston
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bow lake">Bow Lake
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/brasilia">Brasilia
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/brasov">Brasov
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/brennero">Brennero
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/bridgeport">Bridgeport
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/brisbane">Brisbane
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/buenos aires">Buenos Aires
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/buyukada">Buyukada
+</a>
+</li></ul>
+</div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities C </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+
+<li><a href="/cdm/search/collection/gic/searchterm/cabo san lucas">Cabo San Lucas
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/caesarea">Caesarea
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/calcutta">Calcutta
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/camps bay">Camps Bay
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cana">Cana
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/canberra">Canberra
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/canon city">Canon City
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/canton">Canton
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cape of good hope">Cape of Good Hope
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cape town">Cape Town
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/capernaum">Capernaum
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/capri">Capri
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/caracas">Caracas
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/casablanca">Casablanca
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/Central city">Central City
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ceveteri">Ceveteri
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chambord">Chambord
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chamonix-mont-blanc">Chamonix-Mont-Blanc
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chandler">Chandler
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chaouen">Chaouen
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chartres">Chartres
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chateaudun">Chateaudun
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chechaouene">Chechaouene
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chengdu">Chengdu
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chicago">Chicago
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chichen itza">Chichen Itza
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chilpancingo de los Bravos">Chilpancingo de los Bravos
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/chinle">Chinle
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/christchurch">Christchurch
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cilipi">Cilipi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cincinnati">Cincinnati
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cittadella">Cittadella
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ciudad de mexico">Ciudad de Mexico
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cloridorme">Cloridorme
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cluj-napaco">Cluj-Napaco
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/coin-du-Banc">Coin-du-Banc
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/colorado springs">Colorado Springs
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/congonhas">Congonhas
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/copenhagen">Copenhagen
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/coyotepec">Coyotepec
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cripple creek">Cripple Creek
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/cuitzeo del porvenir">Cuitzeo del Porvenir
+</a></li>
+</ul></div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities D-G </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+<li><a href="/cdm/search/collection/gic/searchterm/darjiling">Darjiling
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/datong">Datong
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/dawson city">Dawson City
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/delft">Delft
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/delhi">Delhi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/denpasar">Denpasar
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/detroit">Detroit
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/duivelskloof">Duivelskloof
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/dunedin">Dunedin
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/durban">Durban
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/enkhuizen">Enkhuizen
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ephesus">Ephesus
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ester">Ester
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/florence">Florence
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/fort yukon">Fort Yukon
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/fortin de las flores">Fortin de las Flores
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/foshan">Foshan
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/fruita">Fruita
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/gaspe">Gaspe
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/geiranger">Geiranger
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/genoa">Genoa
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/georgetown">Georgetown
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/gien">Gien
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/giethoorn">Giethoorn
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/giverny">Giverny
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/glenwood springs">Glenwood Springs
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/grado">Grado
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/grande vallee">Grande Vallee
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/greymouth">Greymouth
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/guanajuato">Guanajuato
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/guanta">Guanta
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/guilin">Guilin
+</a></li>
+</ul>
+</div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities H-K </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+
+<li><a href="/cdm/search/collection/gic/searchterm/Hague">Hague
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/halifax">Halifax
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/hartbeespoortdam">Hartbeespoortdam
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/hobart">Hobart
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/honfleur">Honfleur
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/hong kong">Hong Kong
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/honolulu">Honolulu
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/hoorn">Hoorn
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/horbat">Horbat
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/invercargill">Invercargill
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/istanbul">Istanbul
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/jaipur">Jaipur
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/janitzio island">Janitzio Island
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/johannesburg">Johannesburg
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kauai">Kauai
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kefar bir'am">Kefar Bir'am
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kefar nahum">Kefar Nahum
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kerikeri">Kerikeri
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ketchikan">Ketchikan
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ketchum">Ketchum
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kimberly">Kimberly
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kolkata">Kolkata
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kotzebue">Kotzebue
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/kowloon">Kowloon
+</a></li>
+</ul></div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities L-M</a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+ <li><a href="/cdm/search/collection/gic/searchterm/la baule">La Baule
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/la guaira">La Guaira
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/la plata">La Plata
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/lago di lugano">Lago di Lugano
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/las vegas">Las Vegas
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/lima">Lima
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/lisse">Lisse
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/llubjana">Llubjana
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/london">London
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/louyang">Louyang
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/maastricht">Maastricht
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/maihaugen">Maihaugen
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/makhuva">Makhuva
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/manila">Manila
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/marken island">Marken Island
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mas">Mas
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mbaula">Mbaula
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/melbourne">Melbourne
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mengwi">Mengwi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/merida">Merida
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mexico city">Mexico City
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/milan">Milan
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/minas gerais">Minas Gerais
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mitla">Mitla
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mont-blanc">Mont-Blanc
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mont-saint-michel">Mont-Saint-Michel
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/mumbai">Mumbai
+</a></li>
+</ul></div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities N-0 </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+<li><a href="/cdm/search/collection/gic/searchterm/nanjing">Nanjing
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/nanning">Nanning
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/napier">Napier
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/naples">Naples
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/new delhi">New Delhi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/new orleans">New Orleans
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/new york">New York
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/nice">Nice
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/nome">Nome
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/north guilin">North Guilin
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/nouvelle">Nouvelle
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/oaxaca">Oaxaca
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ocotlan">Ocotlan
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ornes">Ornes
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/orvieto">Orvieto
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/oslo">Oslo
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ostia">Ostia
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ottawa">Ottawa
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ouro preto">Ouro Preto
+</a></li>
+</ul></div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities P-Q </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+<li><a href="/cdm/search/collection/gic/searchterm/paestum">Paestum
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/palenque">Palenque
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/paris">Paris
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/patung">Patung
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/patzcuaro">Patzcuaro
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/pau">Pau
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/pec">Pec
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/perce">Perce
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/Pergamon">Pergamon
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/Pergamum">Pergamum
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/perth">Perth
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/perugia">Perugia
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/pesto">Pesto
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/phalaborwa">Phalaborwa
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/pico di itacolomi">Pico di Itacolomi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/pindaya">Pindaya
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/point barrow">Point Barrow
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/pompeii">Pompeii
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/port arthur">Port Arthur
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/pretoria">Pretoria
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/puerto cabello">Puerto Cabello
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/qesari">Qesari
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/queenstown">Queenstown
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/quimper">Quimper
+</a></li>
+</ul></div>
+
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities R </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+<li><a href="/cdm/search/collection/gic/searchterm/rangoon">Rangoon
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ravello">Ravello
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/reims">Reims
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/reinsque">Reinsque
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/revelstoke">Revelstoke
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/ribe">Ribe
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/rio de Janeiro">Rio de Janeiro
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/riviere anse beaufils">Riviere Anse Beaufils
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/robbeneiland">Robbeneiland
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/rochester">Rochester
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/rome">Rome
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/rorvik">Rorvik
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/roselle">Roselle
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/rotorua">Rotorua
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/rouen">Rouen
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/rusellae">Rusellae
+</a></li>
+</ul></div>
+
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities S </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+<li><a href="/cdm/search/collection/gic/searchterm/san francisco">San Francisco
+</a></li>
+<li><a href="/cdm/search/collection/gic/searchterm/santa margherita ligure">Santa Margherita Ligure
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/santiago de leon de caracas">Santiago de Leon de Caracas
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/santo tomas ocotepec">Santo Tomas Ocotepec
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/sardinia">Sardinia
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/saumur">Saumur
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/shanghai">Shanghai
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/siena">Siena
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/sighisoara">Sighisoara
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/simon's town">Simon's Town
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/simonstad">Simonstad
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/sinaia">Sinaia
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/sisteron">Sisteron
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/soweto">Soweto
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/srinagar">Srinagar
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/staphorst">Staphorst
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/strasbourg">Strasbourg
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/stresa">Stresa
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/summerside">Summerside
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/sydney">Sydney
+</a></li>
+</ul></div>
+<h4 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;">Cities T-Z </a></h4>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+    
+<ul> 
+<li><a href="/cdm/search/collection/gic/searchterm/tampaksiring">Tampaksiring
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tangier">Tangier
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/taormina">Taormina
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tarquinia">Tarquinia
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/taxco de alarcon">Taxco de Alarcon
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tekapo">Tekapo
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tetouan">Tetouan
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/thaton">Thaton
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tirgu mures">Tirgu Mures
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tivoli">Tivoli
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/trois-pistoles">Trois-Pistoles
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/trondheim">Trondheim
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tula de allende">Tula de Allende
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/tuxpan">Tuxpan
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/vancouver">Vancouver
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/varanasi">Varanasi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/vardo">Vardo
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/vatican city">Vatican City
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/veio">Veio
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/venice">Venice
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/versailles">Versailles
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/victor">Victor
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/volterra">Volterra
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/vrsac">Vrsac
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/waitomo">Waitomo
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/wanaka">Wanaka
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/wellington">Wellington
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/whitehorse">Whitehorse
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/willemstad">Willemstad
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/wuming">Wuming
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/wuxi">Wuxi
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/xian">Xian
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/yangon">Yangon
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/yogyakarta">Yogyakarta
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/zinshai sayadaw">Zinshai Sayadaw
+</a></li><li><a href="/cdm/search/collection/gic/searchterm/zululand">Zululand
+</a></li>
+</ul>
+
+
+</div></div>
+
+
+
+</div>
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span> <a tabindex="-1" href="javascript://;"> Popular Searches </a></h3>
+
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+    
+<div>   
+<ul> 
+    
+
+  <li><a href="/cdm/search/collection/gic/searchterm/Agriculture">Agriculture</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Arts and Architecture">Arts &amp; Architecture</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/CLothing and Costumes">Clothing &amp; Costume</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Commerce and Industry">Commerce &amp; Industry</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Education">Education</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Entertainment">Entertainment</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Health">Health</a></li>
+     
+
+ <li><a href="/cdm/search/collection/gic/searchterm/Historic Sites and Monuments">Historic Sites &amp; Monuments</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Natural History and Environment">Natural History &amp; Environment</a></li>
+	
+	<li><a href="Parks and Recreation">Parks &amp; Recreation</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Politics and Goverment">Politics &amp; Government</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Religion">Religion</a></li>
+	
+	<li><a href="/cdm/search/collection/gic/searchterm/Transportation and Communication">Transportation &amp; Communication</a></li>
+</ul>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
+

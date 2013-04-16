@@ -1,0 +1,64 @@
+
+
+<script type="text/javascript" src="http://jqueryui.com/external/jquery.cookie.js"></script>
+
+
+
+<script type="text/javascript">// <![CDATA[
+	$(function() {
+		//$( "#accordion" ).accordion({ header: "h3", autoHeight: false,active: false,collapsible: true});
+		
+		  $("#accordion").accordion({ header: "h3",  autoHeight: false, active: false, collapsible: true,  });
+		 $("#accordion2").accordion({ header: "h3", active: false, collapsible: true, cookie: {expires: 1} });
+		 $("#accordion3").accordion({ header: "h4",  autoHeight: false, active: false, collapsible: true,  });
+		
+        });
+		
+		
+		//getter
+
+// ]]></script>
+<!--Container for All of Landing Page-->
+<div class="container">
+<!--Left Box:  Splash Image and Text-->
+<div class="left">
+
+
+<div class="about">
+<h2 style="text-align: center;">DePaul University Yearbooks</h2>
+
+<div class="collectionimage"><img title="DePaulian 1925" src="/utils/ajaxhelper/?CISOROOT=p15448coll1&amp;CISOPTR=1065&amp;action=2&amp;DMSCALE=15&amp;DMWIDTH=400&amp;DMHEIGHT=500&amp;DMX=30&amp;DMY=30" alt="DePaulian 1925 inside cover photo" /></div>
+<div class="collectiontext" style="margin-left:-10px;">
+<p class="cdm_style">The DePaul University yearbook, <em>The DePaulian,</em> was published from 1924 to 1997. Some later issues are titled the <em>DePaul University Senior Book</em>. A complete print run of the yearbook is held in <a href="http://library.depaul.edu/Collections/SpecialCollectionArchives.aspx">DePaul's Special Collections and Archives Department</a>, with incomplete print runs on the public shelves in the Lincoln Park Library.  The site will be updated as more yearbooks are scanned.</p>
+
+
+</div>
+</div>
+
+  <div style="clear:both"></div>
+
+
+</div>
+<!--Right Box:   Includes RSS Link and Browse All Link:  Must be changed for each collection-->
+
+<div class="right">
+
+<div id="cdm_rss_container">
+            <a target="_blank" href="/cdm/viewfeed/collection/p15448coll1"><img border="0" src="/ui/cdm/default/collection/default/images/icon_rss.png" />&nbsp;</a>
+            <a target="_blank" href="/cdm/viewfeed/collection/p15448coll1" class="body_link_11">Receive updates for this collection.</a>
+          </div>
+<div class="browse">
+<FORM METHOD="LINK" ACTION="/cdm/search/collection/p15448coll1">
+<input id="simple_search_button" class="search_content_button spaceMar15L" type="submit" value="Browse this Collection" />
+
+</FORM></div>
+
+
+
+
+</div>
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#disqus_thread {
+	border: 1px solid #DDD;
+    padding: 1em 4px 4px 4px;
+    width: auto;
+}
