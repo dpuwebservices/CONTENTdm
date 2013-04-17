@@ -1,0 +1,111 @@
+<!--Accordions if Necessary.  If not comment out-->
+<script type="text/javascript">// <![CDATA[
+	$(function() {
+		//$( "#accordion" ).accordion({ header: "h3", autoHeight: false,active: false,collapsible: true});
+		
+		  $("#accordion").accordion({ header: "h3",  autoHeight: false, active: false, collapsible: true,  });
+		 $("#accordion2").accordion({ header: "h3", active: false, collapsible: true, cookie: {expires: 1} });
+		 $("#accordion3").accordion({ header: "h4",  autoHeight: false, active: false, collapsible: true,  });
+		
+        });
+		
+		
+		//getter
+
+// ]]></script>
+<!--Container for All of Landing Page-->
+<div class="container">
+<!--Left Box:  Splash Image and Text-->
+<div class="left">
+
+<!--Text Container-->
+<div class="about">
+<h2 style="text-align: center;">COlLECTION NAME GOES HERE</h2>
+<!--Image should be optimized for no height of maximum 475px-->
+<div class="collectionimage"><img title="IMAGE TITLE" src="/ui/custom/default/collection/default/images/COLLECTIONCODE.PNG" alt="ALT TEXT" height="400px" /></div>
+<div class="collectiontext" style="margin-left:-10px;">
+<p class="cdm_style">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a magna sit amet turpis ullamcorper tempus at ut metus. Nulla pulvinar metus ultrices tortor aliquam pretium. Ut risus massa, accumsan nec molestie at, vulputate eget urna. Praesent ut turpis in justo vestibulum vestibulum. Mauris ipsum ligula, consequat in fermentum in, porttitor dignissim dolor. Pellentesque lobortis tempus mi a varius. Pellentesque porttitor adipiscing ipsum, ut posuere enim viverra vehicula. Donec sed metus tellus. Donec vitae felis lacus, ac blandit urna. Proin enim sem, egestas vitae consequat eget, vestibulum non massa. Vestibulum auctor mattis dui vehicula fringilla. Nunc varius mi ut orci iaculis sollicitudin.</p>
+
+<p class="cdm_style">Ut id massa metus. Nunc vulputate, felis sed gravida aliquam, lectus lacus porttitor magna, quis egestas ante ipsum vitae nulla. Sed dapibus tortor eu lectus aliquet quis ultricies lectus eleifend. Sed vulputate sagittis justo in aliquam. Cras luctus consequat enim, ut pretium urna mattis ut. Suspendisse potenti. Ut venenatis faucibus nisi, sit amet mattis lorem egestas in. Fusce aliquam, felis in feugiat rutrum, purus dolor varius nulla, at sagittis diam nisi vel ante. Sed quis neque a lectus euismod ornare eu nec erat. Vestibulum porttitor ornare gravida. Fusce tempus, eros a porta lobortis, purus nulla pharetra libero, id suscipit mauris felis ut nulla. Quisque rhoncus, orci nec posuere accumsan, purus urna accumsan tellus, ac imperdiet lacus diam sed mauris. Suspendisse rhoncus justo interdum erat iaculis vehicula eleifend velit suscipit. Vivamus turpis lectus, consectetur non faucibus congue, vestibulum ut eros.</p>
+
+
+</div>
+</div>
+
+  <div style="clear:both"></div>
+
+
+</div>
+<!--End Left Container-->
+<!--Right Box:   Includes RSS Link and Browse All Link:  Must be changed for each collection-->
+
+<div class="right">
+
+<div id="cdm_rss_container">
+            <a target="_blank" href="/cdm/viewfeed/collection/COLLECTIONCODE"><img border="0" src="/ui/cdm/default/collection/default/images/icon_rss.png" />&nbsp;</a>
+            <a target="_blank" href="/cdm/viewfeed/collection/COLLECTIONCODE" class="body_link_11">Receive updates for this collection.</a>
+          </div>
+<div class="browse">
+<FORM METHOD="LINK" ACTION="/cdm/search/collection/COLLECTIONCODE">
+<input id="simple_search_button" class="search_content_button spaceMar15L" type="submit" value="Browse this Collection" />
+
+</FORM>
+
+<h2>Browse By</h2>
+<!--Accordions  -- Comment out if unnecessary-->
+<div id="accordion" class="cdm_togglebox ui-accordion ui-widget ui-helper-reset ui-accordion-icons">
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span> <a tabindex="-1" href="javascript://;"> Accordion Label </a></h3>
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+
+<ul>
+<li>LINK TO IMAGE</li>
+<li>LINK TO IMAGE</li>
+
+</ul>
+</div>
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;"> Accordion Header</a></h3>
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+<p>Description</p>
+<ul>
+<li>LINK TO IMAGE</li>
+<li>LINK TO IMAGE</li>
+</ul>
+</div>
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;"> Accordion Header </a></h3>
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+<p>Description</p>
+<ul>
+<li>LINK TO IMAGE</li>
+<li>LINK TO IMAGE</li>
+</ul>
+</div>
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;"> Accordion Header </a></h3>
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+<p>Description</p>
+<ul>
+<li>LINK TO IMAGE</li>
+<li>LINK TO IMAGE</li>
+</ul>
+</div>
+
+<h3 id="details_accordion_description_link" class="accordion_header ui-accordion-header ui-helper-reset accordion_header_closedb ui-state-default ui-corner-all"><span class="accordion_header_icon ui-icon ui-icon-triangle-1-e accordion_header_icon_closed"> </span><a tabindex="-1" href="javascript://;"> Style </a></h3>
+<div class="accordion_window ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+<p>Description.</p>
+<ul>
+<li>LINK TO IMAGE</li>
+<li>LINK TO IMAGE</li>
+</ul>
+</div>
+</div>
+<!--End Accordion-->
+</div>
+<!--End Browse Container-->
+
+
+
+</div>
+<!--End Right Container-->
+</div>
+<!--End Container-->
+
+
