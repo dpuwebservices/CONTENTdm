@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
+/*Global CSS File for DPU Digital Collections*/
 
 @media all and (max-width: 1026px) and (min-width: 368px) {
   .nav_top_left_text_container {
@@ -13,6 +13,22 @@ list-style: none;
 	margin: 0; padding: 0;
 	width: 353px;
 	float: left;
+}
+
+#nav_top_right {
+/*Location of Login & Help Links*/
+float: right;
+padding: 4px 5px;
+position: absolute;
+top: 59px;
+left: 850px;
+left: 850px\9;
+/*border-left: 1px solid white;
+border-top: 1px solid white;
+border-right: 1px solid white;*/
+height: 15px;
+width: 170px;
+
 }
 
   

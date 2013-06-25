@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*CSS for Menu Bar*/
+
+
 /*NAV BAR*/
 #nav_top {
 background-color: #A9A9A9;
@@ -20,7 +23,9 @@ width: 205px\9; /* IE8 and below */
 }
 
 
+
 #nav_top_right {
+/*Location of Login & Help Links*/
 float: right;
 padding: 4px 5px;
 position: absolute;
