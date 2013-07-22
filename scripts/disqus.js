@@ -1,8 +1,7 @@
 // JavaScript Document
 //Adding DisQus Plugin to CONTENTdm
 //Styling of the plugin is managed by the disqus.css 
-//CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE
-//Include in the 
+//CONFIGURATION VARIABLES: 
 var disqus_shortname = 'dpudigicoll'; // required: replace example with your forum shortname
 // Insert Disqus thread after details area in CDM
 $('#details').after('<div id="disqus_thread"></div>'); 
